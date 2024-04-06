@@ -1,0 +1,6 @@
+.slots-row {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 3rem;
+}

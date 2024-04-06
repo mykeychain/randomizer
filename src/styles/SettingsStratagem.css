@@ -1,0 +1,23 @@
+.settings-stratagem-card {
+    color: var(--card-primary-border-color);
+    border: 3px solid var(--card-primary-border-color);
+    background-color: var(--card-bg-color);
+    cursor: pointer;
+}
+
+.settings-stratagem-card.inactive {
+    border: 3px solid var(--danger-color);
+    background: repeating-linear-gradient(
+        45deg,
+        var(--danger-color),
+        var(--danger-color) 3px,
+        var(--card-bg-color) 3px,
+        var(--card-bg-color) 8px
+    );
+}
+
+.settings-stratagem-icon {
+    padding: 5px;
+    width: 3.5rem;
+    height: 3.5rem;
+}

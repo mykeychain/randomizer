@@ -1,0 +1,34 @@
+.slots-button {
+    border: 3px solid var(--success-color);
+    background: repeating-linear-gradient(
+        45deg,
+        var(--muted-success-color),
+        var(--muted-success-color) 3px,
+        var(--card-bg-color) 3px,
+        var(--card-bg-color) 9px
+    );
+    color: var(--success-color);
+    font-size: 2rem;
+    padding: 0.5rem 8rem;
+    cursor: pointer;
+    font-family: 'Chakra Petch';
+    font-weight: 700;
+}
+
+.slots-button:hover {
+    background: var(--success-color);
+    color: var(--card-bg-color);
+}
+
+.slots-button.spinning {
+    border: 3px solid var(--muted-warning-color);
+    background: repeating-linear-gradient(
+        45deg,
+        var(--muted-warning-color),
+        var(--muted-warning-color) 3px,
+        var(--card-bg-color) 3px,
+        var(--card-bg-color) 9px
+    );
+    color: var(--muted-warning-color);
+    cursor: default;
+}
