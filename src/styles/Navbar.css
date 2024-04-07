@@ -1,0 +1,41 @@
+.navbar {
+    position: relative;
+    top: 0;
+    height: 5rem;
+    width: 100%;
+    color: white;
+}
+
+/* .settings-button {
+    position: fixed;
+    top: 3%;
+    right: 3%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.settings-button.open {
+    visibility: hidden;
+}
+
+.settings-button.closed {
+    visibility: visible;
+}
+
+.settings-icon:hover {
+    cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .settings-icon:hover {
+        animation: settings-icon-spin infinite 5s linear;
+    }
+  }
+
+@keyframes settings-icon-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+  } */

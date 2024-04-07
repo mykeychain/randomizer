@@ -1,5 +1,20 @@
+:root {
+  --main-bg-color: rgb(34,34,34);
+  --success-color: rgb(79,224,118);
+  --warning-color: rgb(255,232,0);
+  --danger-color: rgb(176,68,68);
+  --muted-success-color: rgb(38,90,52);
+  --muted-warning-color: rgb(90, 81, 8);
+  --card-bg-color: rgb(41,41,41);
+  --card-primary-border-color: rgb(71,71,71);
+  --primary-text-color: rgb(255,255,237);
+}
+
 .App {
   text-align: center;
+  background-color: var(--main-bg-color);
+  min-height: 100vh;
+  color: var(--primary-text-color);
 }
 
 .App-logo {
@@ -14,8 +29,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -1,0 +1,33 @@
+.settings-button {
+    position: fixed;
+    top: 2%;
+    right: 1%;
+    cursor: pointer;
+    transition: right 0.3s ease-in-out;
+    z-index: 110;
+}
+
+.settings-button.open {
+    right: 31%;
+    z-index: 0;
+}
+
+.settings-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    animation: settings-icon-spin 4s linear infinite;
+    animation-play-state: paused;
+}
+
+.settings-icon:hover {
+    animation-play-state: running;
+}
+
+@keyframes settings-icon-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
