@@ -1,0 +1,7 @@
+.credits {
+    margin-bottom: 1rem;
+}
+
+.credits a {
+    color: var(--primary-text-color);
+}

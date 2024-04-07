@@ -1,10 +1,14 @@
 import React from "react";
+import { ReactComponent as Skull } from "../stratagem_icons/hd-full.svg";
 import "../styles/GameTitle.css";
 
 
 function GameTitle() {
     return (
-        <h1 className="game-title">STRATAGEM RANDOMIZER</h1>
+        <div>
+            <h1 className="game-title">STRATAGEM RANDOMIZER</h1>
+            <Skull className="skull-icon"/>
+        </div>
     )
 }
 

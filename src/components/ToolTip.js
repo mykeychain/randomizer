@@ -6,13 +6,13 @@ function ToolTip() {
     const { toolTipVisible, tooltipContent, position } = useContext(ToolTipContext);
 
     const style = {
-        top: position ? position.y + 25 : -15,
-        left: position ? position.x : -15,
+        top: position ? position.y + 25 : -45,
+        left: position ? position.x : -45,
     };
 
     return (
         <div className={`tooltip ${toolTipVisible ? "visible" : "hidden"}`} style={style}>
-            { tooltipContent }
+            { tooltipContent.toUpperCase() }
         </div>
     );
 };

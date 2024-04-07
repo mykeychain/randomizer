@@ -6,7 +6,7 @@ function SettingsStratagem(props) {
     const { setPosition, showToolTip, hideToolTip } = useContext(ToolTipContext);
     let stratagem = props.stratagem;
 
-    function handleMouseEnter(content) {
+    function handleMouseEnter() {
         showToolTip(stratagem.short_name);
       };
     
@@ -19,7 +19,7 @@ function SettingsStratagem(props) {
             className={`settings-stratagem-card ${stratagem.active ? "active" : "inactive"}`}
             key={stratagem.name}
             onClick={props.toggleStratagem}
-            onMouseEnter={() => handleMouseEnter(stratagem.short_name)}
+            onMouseEnter={() => handleMouseEnter()}
             onMouseMove={handleMouseMove}
             onMouseLeave={hideToolTip}>
             <img className="settings-stratagem-icon"

@@ -5,6 +5,7 @@
     position: fixed;
     top: 0;
     z-index: 0;
+    transition: z-index 0.3s linear;
 }
 
 .settings-container.open {
@@ -13,17 +14,17 @@
 
 .settings-window {
     position: fixed;
-    right: -30%;
+    right: calc(var(--panel-width) * -1);
     height: 100%;
-    width: 30%;
+    width: var(--panel-width);
     transition: transform 0.3s ease-in-out;
     overflow: auto;
     background-color: var(--main-bg-color);
+    z-index: 100;
 }
 
 .settings-window.open {
     transform: translateX(-100%);
-    z-index: 100;
 }
 
 .settings-overlay {

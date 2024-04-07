@@ -1,0 +1,23 @@
+.winner-box {
+    position: absolute;
+    top: 17.75rem;
+    height: 10rem;
+    width: 50rem;
+    border: 8px solid gold;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.winner-box.hidden {
+    opacity: 0;
+}
+
+.winner-box.visible {
+    animation: blink 1.5s linear infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
