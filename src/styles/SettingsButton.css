@@ -8,7 +8,7 @@
 }
 
 .settings-button.open {
-    right: 31%;
+    right: calc(var(--panel-width) + 1%);
     z-index: 0;
 }
 
