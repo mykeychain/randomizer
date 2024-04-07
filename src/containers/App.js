@@ -7,22 +7,23 @@ import Game from "./Game.js";
 import SettingsButton from "../components/SettingsButton.js";
 import ToolTip from "../components/ToolTip.js";
 import '../styles/App.css';
+import AppProvider from "../utils/AppProvider.js";
 
 function App() {
-    const [appMode, setAppMode] = useState('game');
-
     return (
         <StratagemsProvider>
             <SpinningProvider>
                 <ToolTipProvider>
-                    <div className="App">
-                        <header className="App-header">
-                        </header>
-                        <Game />
-                        <SettingsButton currentMode={appMode} setCurrentMode={setAppMode}/>
-                        <Settings currentMode={appMode} setCurrentMode={setAppMode} />
-                        <ToolTip />
-                    </div>
+                    <AppProvider>
+                        <div className="App">
+                            <header className="App-header">
+                            </header>
+                            <Game />
+                            <SettingsButton />
+                            <Settings  />
+                            <ToolTip />
+                        </div>
+                    </AppProvider>
                 </ToolTipProvider>
             </SpinningProvider>
         </StratagemsProvider>

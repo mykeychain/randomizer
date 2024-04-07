@@ -1,20 +1,22 @@
-import React from "react";
+import React, { useContext } from "react";
+import AppContext from "../utils/AppContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
 import "../styles/SettingsButton.css";
 
 function SettingsButton(props) {
+    const { appMode, setAppMode } = useContext(AppContext);
 
     function toggleSettings() {
-        if (props.currentMode === "game") {
-            props.setCurrentMode("settings");
+        if (appMode !== "settings") {
+            setAppMode("settings");
         } else {
-            props.setCurrentMode("game");
+            setAppMode("init");
         };
     };
 
     return (
-        <div className={`settings-button ${props.currentMode === "settings" ? "open" : "closed"}`} onClick={toggleSettings}>
+        <div className={`settings-button ${appMode === "settings" ? "open" : "closed"}`} onClick={toggleSettings}>
             <span>
                 <FontAwesomeIcon icon={faGear} className="settings-icon" />
             </span>

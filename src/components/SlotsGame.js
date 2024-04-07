@@ -4,7 +4,6 @@ import SlotsRow from "./SlotsRow";
 
 
 function SlotsGame() {
-
     return (
         <div>
             <SlotsRow />
