@@ -10,6 +10,9 @@ function Credits() {
             <div>
                 ALL STRATAGEM ICONS ARE SOURCED FROM <span><a href="https://github.com/nvigneux/Helldivers-2-Stratagems-icons-svg" target="_blank" rel="noreferrer">NVIGNEUX AND NDORFIN</a></span>
             </div>
+            <div>
+                THIS PROJECT IS FAN MADE AND IS NOT AFFILIATED WITH HELLDIVERS, ARROWHEAD STUDIOS, OR PLAYSTATION STUDIOS
+            </div>
         </div>
     );
 };
