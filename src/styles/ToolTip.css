@@ -1,0 +1,14 @@
+.tooltip {
+    position: fixed;
+    visibility: hidden;
+    z-index: 10000;
+    padding: 0 1rem;
+    font-size: 1.25rem;
+
+    border: 2px solid var(--card-primary-border-color);
+    background-color: var(--main-bg-color);
+}
+
+.tooltip.visible {
+    visibility: visible;
+}

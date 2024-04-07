@@ -1,21 +1,24 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import SpinningContext from "../utils/SpinningContext";
 import "../styles/SlotsButton.css";
 
 function SlotsButton() {
-    const { isSpinning, setIsSpinning } = useContext(SpinningContext);
+    const { setIsSpinning } = useContext(SpinningContext);
+    const [ isClickable, setIsClickable ] = useState(true);
 
     function toggleSpinning() {
         setIsSpinning(true);
+        setIsClickable(false);
 
         setTimeout(() => {
             setIsSpinning(false)
-        }, 2000);
+            setTimeout(() => setIsClickable(true), 600);
+        }, 1500);
     };
 
     return (
         <div>
-            <button className={`slots-button ${isSpinning ? "spinning" : "resolved"}`} onClick={toggleSpinning}>
+            <button className={`slots-button ${isClickable ? "clickable" : "unclickable"}`} onClick={toggleSpinning}>
                 RANDOMIZE
             </button>
         </div>

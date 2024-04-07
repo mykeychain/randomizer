@@ -56,7 +56,7 @@ function Slot(props) {
 
         if (shuffledStratagems.length > 0) {
             let i = Math.floor(Math.random() * (shuffledStratagems.length - 2));
-            let top = (i * (0 - optionSize)) - 0.55;
+            let top = (i * (0 - optionSize)) - (shuffledStratagems.length * .013);
             res["style"] = {
                 transform: `translateY(${top}%)`,
             }
