@@ -1,14 +1,17 @@
 import React, { useContext, useState } from "react";
 import AppContext from "../utils/AppContext";
 import SpinningContext from "../utils/SpinningContext";
+import WinnerContext from "../utils/WinnerContext";
 import "../styles/SlotsButton.css";
 
 function SlotsButton() {
     const { appMode, setAppMode } = useContext(AppContext);
     const { setIsSpinning } = useContext(SpinningContext);
     const [ isClickable, setIsClickable ] = useState(true);
+    const { dispatch } = useContext(WinnerContext);
 
     function toggleSpinning() {
+        dispatch({ type: "RESET" });
         setIsSpinning(true);
         setIsClickable(false);
         setAppMode("game");
@@ -16,6 +19,7 @@ function SlotsButton() {
         setTimeout(() => {
             setIsSpinning(false)
             setTimeout(() => setIsClickable(true), 600);
+            setAppMode("resolved");
         }, 1500);
     };
 

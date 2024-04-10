@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import StratagemsProvider from "../utils/StratagemsProvider";
 import SpinningProvider from "../utils/SpinningProvider";
 import ToolTipProvider from "../utils/ToolTipProvider";
+import WinnerProvider from "../utils/WinnerProvider.js";
 import Settings from "./Settings.js";
 import Game from "./Game.js";
 import SettingsButton from "../components/SettingsButton.js";
@@ -15,14 +16,16 @@ function App() {
             <SpinningProvider>
                 <ToolTipProvider>
                     <AppProvider>
-                        <div className="App">
-                            <header className="App-header">
-                            </header>
-                            <Game />
-                            <SettingsButton />
-                            <Settings  />
-                            <ToolTip />
-                        </div>
+                        <WinnerProvider>
+                            <div className="App">
+                                <header className="App-header">
+                                </header>
+                                <Game />
+                                <SettingsButton />
+                                <Settings  />
+                                <ToolTip />
+                            </div>
+                        </WinnerProvider>
                     </AppProvider>
                 </ToolTipProvider>
             </SpinningProvider>
