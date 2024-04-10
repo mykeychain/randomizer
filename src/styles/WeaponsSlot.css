@@ -1,0 +1,15 @@
+.weapons-slot {
+    width: 16.2rem;
+    height: 7rem;
+    position: relative;
+}
+
+.weapons-slot.grenade {
+    width: 10rem;
+}
+
+.weapons-container {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+}
