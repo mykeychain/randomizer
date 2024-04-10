@@ -9,7 +9,7 @@ function WinnerBox() {
     const [ isVisible, setIsVisible ] = useState(false);
 
     useEffect(() => {
-        if (!isSpinning && appMode === "game") {
+        if (!isSpinning && appMode === "resolved") {
             setTimeout(() => {
                 setIsVisible(true);
             }, 850);

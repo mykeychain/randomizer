@@ -11,7 +11,7 @@ function Settings() {
         if (appMode !== "settings") {
             setAppMode("settings");
         } else {
-            setAppMode("init");
+            setAppMode("game");
         };
     };
 
