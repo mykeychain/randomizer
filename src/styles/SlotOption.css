@@ -3,7 +3,18 @@
     width: 8rem;
 }
 
+.option {
+    border: 0.5rem solid transparent;
+    padding: 0.5rem;
+}
+
 .option.winner {
-    /* border: 4px solid gold; */
-    /* background-color: gold; */
+    border: 0.5rem solid gold;
+    animation: blink 1.5s linear infinite;
+}
+
+@keyframes blink {
+    50% {
+        border: 0.5rem solid transparent;
+    }
 }

@@ -18,8 +18,8 @@
 
 .options-container {
     position: absolute;
-    left: 1rem;
-    top: 6rem;
+    left: 0rem;
+    top: 5.5rem;
 }
 
 .options-container.spinning {

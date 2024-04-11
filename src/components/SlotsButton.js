@@ -11,6 +11,10 @@ function SlotsButton() {
     const { dispatch } = useContext(WinnerContext);
 
     function toggleSpinning() {
+        if (!isClickable) {
+            return;
+        };
+        
         dispatch({ type: "RESET" });
         setIsSpinning(true);
         setIsClickable(false);

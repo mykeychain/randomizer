@@ -11,7 +11,7 @@ function Slot(props) {
     const { appMode } = useContext(AppContext);
     const { isSpinning } = useContext(SpinningContext);
     const { stratagems } = useContext(StratagemsContext);
-    const { dispatch } = useContext(WinnerContext);
+    const { state } = useContext(WinnerContext);
     const [ shuffledStratagems, setShuffledStratagems ] = useState([]);
     const [ localSpin, setLocalSpin ] = useState(false);
     const [ optionSize, setOptionSize ] = useState(0);
@@ -35,7 +35,7 @@ function Slot(props) {
             let stratagem = stratagems[id];
             if (stratagem) {
                 shuffledStratagems.push(
-                    <SlotOption key={`${stratagem.name}-option`} stratagem={stratagem} />
+                    <SlotOption key={`${stratagem.name}-option`} stratagem={stratagem} slotId={props.id} />
                 );
             };
         };
@@ -46,12 +46,8 @@ function Slot(props) {
     useEffect(() => {
         if (isSpinning) {
             setLocalSpin(true);
-            let res = getRandomOption();
-            let winnerName = res.name;
-            dispatch({ type: "UPDATE", payload: winnerName });
-            console.log('style here', res, props.time);
         } else if (appMode === "init") {
-            setComponentStyle({top: "-2rem"})
+            setComponentStyle({top: "-5rem"})
         } else {
             setTimeout(() => {
                 setLocalSpin(false);
@@ -59,30 +55,20 @@ function Slot(props) {
         }
     }, [isSpinning, props.time, appMode]);
 
-    function getRandomOption() {
-        let res = {
-            style: {},
+    useEffect(() => {
+        const winnerName = state[props.id];
+        if (winnerName) {
+            let style = {};
+            let idx = shuffledStratagems.findIndex((s) => s["props"]["stratagem"]["name"] === winnerName)
+            let top = (-idx * optionSize);
+            style["transform"] = `translateY(${top}%)`;
+            setComponentStyle(style);
         };
-
-        if (shuffledStratagems.length > 0) {
-            let i = Math.floor(Math.random() * (shuffledStratagems.length - 2));
-            // let i = 0;
-            let winnerName = shuffledStratagems[i]["props"]["stratagem"]["name"];
-            let top = (-i * optionSize);
-            res["name"] = winnerName;
-            res["style"] = {
-                transform: `translateY(${top}%)`,
-            };
-        };
-
-        setComponentStyle(res.style);
-        return res;
-    };
-
+    }, [ state ]);
 
     return (
         <div className="slot">
-            <div className={`options-container ${localSpin ? "spinning" : "still"}`} style={componentStyle === undefined ? "top: -2%" : componentStyle}>
+            <div className={`options-container ${localSpin ? "spinning" : "still"}`} style={componentStyle}>
                 {shuffledStratagems}
             </div>
         </div>

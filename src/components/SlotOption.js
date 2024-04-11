@@ -1,10 +1,12 @@
 import React, { useContext, useState, useEffect } from "react";
+import AppContext from "../utils/AppContext";
 import SpinningContext from "../utils/SpinningContext";
 import ToolTipContext from "../utils/ToolTipContext";
 import WinnerContext from "../utils/WinnerContext";
 import "../styles/SlotOption.css";
 
 function SlotOption(props) {
+    const { appMode } = useContext(AppContext);
     const { isSpinning } = useContext(SpinningContext);
     const { setPosition, showToolTip, hideToolTip } = useContext(ToolTipContext);
     const { state } = useContext(WinnerContext); 
@@ -12,7 +14,7 @@ function SlotOption(props) {
     const stratagem = props.stratagem;
 
     useEffect(() => {
-        if (!isSpinning && state.includes(props.stratagem.name)) {
+        if (!isSpinning && state[props.slotId] === stratagem.name) {
             setTimeout(() => {
                 setIsWinner(true);
             }, 700);
@@ -31,7 +33,7 @@ function SlotOption(props) {
 
     return (
         <div
-            className={`option ${isSpinning ? "spinning" : "still"} ${isWinner ? "winner" : ""}`}
+            className={`option ${isSpinning ? "spinning" : "still"} ${isWinner && appMode === "resolved"  ? "winner" : ""}`}
             onMouseEnter={() => handleMouseEnter(stratagem.short_name)}
             onMouseMove={handleMouseMove}
             onMouseLeave={hideToolTip}>
