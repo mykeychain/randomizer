@@ -1,7 +1,6 @@
 import React from "react";
 import Station from "../components/SettingsStation";
 import STATIONS from "../utils/Stations";
-import "../styles/StratagemsContainer.css";
 
 
 function StratagemsContainer() {
