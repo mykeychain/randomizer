@@ -5,6 +5,10 @@
     cursor: pointer;
 }
 
+.settings-stratagem-card:hover {
+    border: 3px solid var(--primary-text-color);
+}
+
 .settings-stratagem-card.inactive {
     border: 3px solid var(--danger-color);
     background: repeating-linear-gradient(
@@ -13,8 +17,8 @@
         var(--danger-color) 3px,
         var(--card-bg-color) 3px,
         var(--card-bg-color) 8px
-    );
-}
+        );
+    }
 
 .settings-stratagem-icon {
     padding: 5px;

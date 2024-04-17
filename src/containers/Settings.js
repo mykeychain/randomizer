@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import AppContext from "../utils/AppContext";
+import GeneralSettingsContainer from "./GeneralSettingsContainer";
 import StratagemsContainer from "./StratagemsContainer";
 import Credits from "../components/Credits";
 import "../styles/Settings.css";
@@ -18,6 +19,7 @@ function Settings() {
     return (
         <div className={`settings-container ${appMode === 'settings' ? 'open' : 'closed'}`}>
             <div className={`settings-window ${appMode === 'settings' ? 'open' : 'closed'}`}>
+                <GeneralSettingsContainer />
                 <StratagemsContainer />
                 <Credits />
             </div>
