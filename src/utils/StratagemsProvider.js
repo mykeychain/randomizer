@@ -15,8 +15,12 @@ const StratagemsProvider = ({ children }) => {
         }));
     };
 
+    const resetStratagems = () => {
+        setStratagems({...STRATAGEMS});
+    };
+
     return (
-        <StratagemsContext.Provider value={{ stratagems, updateStratagems }}>
+        <StratagemsContext.Provider value={{ stratagems, updateStratagems, resetStratagems }}>
             {children}
         </StratagemsContext.Provider>
     );
