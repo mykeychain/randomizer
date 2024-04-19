@@ -1,0 +1,39 @@
+.rating-container {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.rating-box {
+    display: flex;
+    justify-content: space-between;
+    width: 26rem;
+    height: 4rem;
+    border: 2px solid var(--success-color);
+}
+
+.rating-hatch {
+    width: 15%;
+    background: repeating-linear-gradient(
+        45deg,
+        var(--muted-success-color),
+        var(--muted-success-color) 3px,
+        var(--card-bg-color) 3px,
+        var(--card-bg-color) 9px
+    );
+}
+
+.rating-hatch.left {
+    border-right: 2px solid var(--success-color);
+}
+
+.rating-hatch.right {
+    border-left: 2px solid var(--success-color);
+}
+
+.rating {
+    padding: 0.75rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--success-color);
+}
