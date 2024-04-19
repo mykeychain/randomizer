@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
+import Credits from "../components/Credits";
 import AppContext from "../utils/AppContext";
 import GeneralSettingsContainer from "./GeneralSettingsContainer";
 import StratagemsContainer from "./StratagemsContainer";
-import Credits from "../components/Credits";
 import "../styles/Settings.css";
 
 function Settings() {

@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import GeneralSettingsContext from "../utils/GeneralSettingsContext";
 import GeneralSettings from "../components/GeneralSettings";
-import "../styles/GeneralSettingsContainer.css";
 import ResetStratagems from "../components/ResetStratagems";
+import "../styles/GeneralSettingsContainer.css";
 
 
 function GeneralSettingsContainer() {

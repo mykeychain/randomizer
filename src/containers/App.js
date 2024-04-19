@@ -1,15 +1,15 @@
-import React, { useState } from "react";
-import StratagemsProvider from "../utils/StratagemsProvider";
-import SpinningProvider from "../utils/SpinningProvider";
-import ToolTipProvider from "../utils/ToolTipProvider";
-import WinnerProvider from "../utils/WinnerProvider.js";
-import Settings from "./Settings.js";
+import React from "react";
 import Game from "./Game.js";
 import SettingsButton from "../components/SettingsButton.js";
+import Settings from "./Settings.js";
 import ToolTip from "../components/ToolTip.js";
-import '../styles/App.css';
 import AppProvider from "../utils/AppProvider.js";
 import GeneralSettingsProvider from "../utils/GeneralSettingsProvider.js";
+import SpinningProvider from "../utils/SpinningProvider";
+import StratagemsProvider from "../utils/StratagemsProvider";
+import ToolTipProvider from "../utils/ToolTipProvider";
+import WinnerProvider from "../utils/WinnerProvider.js";
+import '../styles/App.css';
 
 function App() {
     return (

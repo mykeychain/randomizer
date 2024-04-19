@@ -1,6 +1,5 @@
 import React, { useContext, useEffect } from "react";
 import Slot from "./Slot";
-import AppContext from "../utils/AppContext";
 import GeneralSettingsContext from "../utils/GeneralSettingsContext";
 import SpinningContext from "../utils/SpinningContext";
 import StratagemsContext from "../utils/StratagemsContext";

@@ -1,10 +1,10 @@
 import React, { useContext, useState, useEffect } from "react";
+import SlotOption from "./SlotOption";
 import AppContext from "../utils/AppContext";
 import SpinningContext from "../utils/SpinningContext";
 import StratagemsContext from "../utils/StratagemsContext";
 import WinnerContext from "../utils/WinnerContext";
 import "../styles/Slot.css";
-import SlotOption from "./SlotOption";
 
 
 function Slot(props) {
