@@ -80,6 +80,16 @@ const STRATAGEMS = {
         heavy_ordinance: false,
     },
     9: {
+        name: "airburst_rocket_launcher",
+        short_name: "Airburst Rocket Launcher",
+        long_name: "RL-77 Airburst Rocket Launcher",
+        station: 1,
+        active: true,
+        backpack: false,
+        support_weapon: true,
+        heavy_ordinance: false,
+    },
+    10: {
         name: "railgun",
         short_name: "Railgun",
         long_name: "RS-422 Railgun",
@@ -89,7 +99,7 @@ const STRATAGEMS = {
         support_weapon: true,
         heavy_ordinance: false,
     },
-    10: {
+    11: {
         name: "spear",
         short_name: "SPEAR",
         long_name: "FAF-154 SPEAR Launcher",
@@ -99,7 +109,7 @@ const STRATAGEMS = {
         support_weapon: true,
         heavy_ordinance: false,
     },
-    11: {
+    12: {
         name: "gatling_barrage",
         short_name: "Gatling Barrage",
         long_name: "Orbital Gatling Barrage",
@@ -109,7 +119,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    12: {
+    13: {
         name: "airburst_strike",
         short_name: "Airburst Strike",
         long_name: "Orbital Airburst Strike",
@@ -119,7 +129,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    13: {
+    14: {
         name: "120_he_barrage",
         short_name: "120MM HE Barrage",
         long_name: "Orbital 120MM HE Barrage",
@@ -129,7 +139,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: true,
     },
-    14: {
+    15: {
         name: "380_he_barrage",
         short_name: "380MM HE Barrage",
         long_name: "Orbital 380MM HE Barrage",
@@ -139,7 +149,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: true,
     },
-    15: {
+    16: {
         name: "walking_barrage",
         short_name: "Walking Barrage",
         long_name: "Orbital Walking Barrage",
@@ -149,7 +159,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: true,
     },
-    16: {
+    17: {
         name: "orbital_laser",
         short_name: "Orbital Laser",
         long_name: "Orbital Laser",
@@ -159,7 +169,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: true,
     },
-    17: {
+    18: {
         name: "railcannon_strike",
         short_name: "Railcannon Strike",
         long_name: "Orbital Railcannon Strike",
@@ -169,7 +179,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: true,
     },
-    18: {
+    19: {
         name: "strafing_run",
         short_name: "Eagle Strafing Run",
         long_name: "Eagle Strafing Run",
@@ -179,7 +189,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    19: {
+    20: {
         name: "airstrike",
         short_name: "Eagle Airstrike",
         long_name: "Eagle Airstrike",
@@ -189,7 +199,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: true,
     },
-    20: {
+    21: {
         name: "cluster_bomb",
         short_name: "Eagle Cluster Bomb",
         long_name: "Eagle Cluster Bomb",
@@ -199,7 +209,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    21: {
+    22: {
         name: "napalm_airstrike",
         short_name: "Eagle Napalm Airstrike",
         long_name: "Eagle Napalm Airstrike",
@@ -209,7 +219,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    22: {
+    23: {
         name: "jump_pack",
         short_name: "Jump Pack",
         long_name: "LIFT-850 Jump Pack",
@@ -219,7 +229,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    23: {
+    24: {
         name: "smoke_strike",
         short_name: "Eagle Smoke Strike",
         long_name: "Eagle Smoke Strike",
@@ -229,7 +239,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    24: {
+    25: {
         name: "rocket_pods",
         short_name: "Eagle Rocket Pods",
         long_name: "Eagle 110MM Rocket Pods",
@@ -239,7 +249,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: true,
     },
-    25: {
+    26: {
         name: "500_kg_bomb",
         short_name: "Eagle 500KG Bomb",
         long_name: "Eagle 500KG Bomb",
@@ -249,7 +259,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: true,
     },
-    26: {
+    27: {
         name: "precision_strike",
         short_name: "Precision Strike",
         long_name: "Orbital Precision Strike",
@@ -259,7 +269,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: true,
     },
-    27: {
+    28: {
         name: "gas_strike",
         short_name: "Orbital Gas Strike",
         long_name: "Orbital Gas Strike",
@@ -269,7 +279,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    28: {
+    29: {
         name: "ems_strike",
         short_name: "Orbital EMS Strike",
         long_name: "Orbital EMS Strike",
@@ -279,7 +289,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    29: {
+    30: {
         name: "orbital_smoke_strike",
         short_name: "Orbital Smoke Strike",
         long_name: "Orbital Smoke Strike",
@@ -289,7 +299,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    30: {
+    31: {
         name: "hmg_emplacement",
         short_name: "HMG Emplacement",
         long_name: "E/MG-101 HMG Emplacement",
@@ -299,7 +309,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    31: {
+    32: {
         name: "shield_generator_relay",
         short_name: "Shield Generator Relay",
         long_name: "FX-12 Shield Generator Relay",
@@ -309,7 +319,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    32: {
+    33: {
         name: "tesla_tower",
         short_name: "Tesla Tower",
         long_name: "A/ARC-3 Tesla Tower",
@@ -319,7 +329,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    33: {
+    34: {
         name: "anti_personnel_minefield",
         short_name: "Anti-Personnel Minefield",
         long_name: "MD-6 Anti-Personnel Minefield",
@@ -329,7 +339,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    34: {
+    35: {
         name: "supply_pack",
         short_name: "Supply Pack",
         long_name: "B-1 Supply Pack",
@@ -339,7 +349,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    35: {
+    36: {
         name: "grenade_launcher",
         short_name: "Grenade Launcher",
         long_name: "GL-21 Grenade Launcher",
@@ -349,7 +359,7 @@ const STRATAGEMS = {
         support_weapon: true,
         heavy_ordinance: false,
     },
-    36: {
+    37: {
         name: "laser_cannon",
         short_name: "Laser Cannon",
         long_name: "LAS-98 Laser Cannon",
@@ -359,7 +369,7 @@ const STRATAGEMS = {
         support_weapon: true,
         heavy_ordinance: false,
     },
-    37: {
+    38: {
         name: "incendiary_mines",
         short_name: "Incendiary Mines",
         long_name: "MD-14 Incendiary Mines",
@@ -369,7 +379,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    38: {
+    39: {
         name: "guard_dog_rover",
         short_name: "'Guard Dog' Rover",
         long_name: "AX/LAS-5 'Guard Dog' Rover",
@@ -379,7 +389,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    39: {
+    40: {
         name: "ballistic_shield",
         short_name: "Ballistic Shield Backpack",
         long_name: "SH-20 Ballistic Shield Backpack",
@@ -389,7 +399,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    40: {
+    41: {
         name: "arc_thrower",
         short_name: "Arc Thrower",
         long_name: "ARC-3 Arc Thrower",
@@ -399,7 +409,7 @@ const STRATAGEMS = {
         support_weapon: true,
         heavy_ordinance: false,
     },
-    41: {
+    42: {
         name: "quasar_cannon",
         short_name: "Quasar Cannon",
         long_name: "LAS-99 Quasar Cannon",
@@ -409,7 +419,7 @@ const STRATAGEMS = {
         support_weapon: true,
         heavy_ordinance: true,
     },
-    42: {
+    43: {
         name: "shield_generator_pack",
         short_name: "Shield Generator Pack",
         long_name: "SH-32 Shield Generator Pack",
@@ -419,7 +429,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    43: {
+    44: {
         name: "machine_gun_sentry",
         short_name: "Machine Gun Sentry",
         long_name: "A/MG-43 Machine Gun Sentry",
@@ -429,7 +439,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    44: {
+    45: {
         name: "gatling_sentry",
         short_name: "Gatling Sentry",
         long_name: "A/G-16 Gatling Sentry",
@@ -439,7 +449,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    45: {
+    46: {
         name: "mortar_sentry",
         short_name: "Mortar Sentry",
         long_name: "A/M-12 Mortar Sentry",
@@ -449,7 +459,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    46: {
+    47: {
         name: "guard_dog",
         short_name: "'Guard Dog'",
         long_name: "AX/AR-23 'Guard Dog'",
@@ -459,7 +469,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    47: {
+    48: {
         name: "autocannon_sentry",
         short_name: "Autocannon Sentry",
         long_name: "A/AC-8 Autocannon Sentry",
@@ -469,7 +479,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    48: {
+    49: {
         name: "rocket_sentry",
         short_name: "Rocket Sentry",
         long_name: "A/MLS-4X Rocket Sentry",
@@ -479,7 +489,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: true,
     },
-    49: {
+    50: {
         name: "ems_mortar_sentry",
         short_name: "EMS Mortar Sentry",
         long_name: "A/M-23 EMS Mortar Sentry",
@@ -489,7 +499,7 @@ const STRATAGEMS = {
         support_weapon: false,
         heavy_ordinance: false,
     },
-    50: {
+    51: {
         name: "patriot_exosuit",
         short_name: "Patriot Exosuit",
         long_name: "EXO-45 Patriot Exosuit",
