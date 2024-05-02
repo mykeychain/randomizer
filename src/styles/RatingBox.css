@@ -1,3 +1,18 @@
+.good {
+    --main-color: var(--success-color);
+    --muted-color: var(--muted-success-color);
+}
+
+.mid {
+    --main-color: var(--warning-color);
+    --muted-color: var(--muted-warning-color);
+}
+
+.bad {
+    --main-color: red;
+    --muted-color: var(--danger-color);
+}
+
 .rating-container {
     display: flex;
     justify-content: center;
@@ -9,31 +24,42 @@
     justify-content: space-between;
     width: 26rem;
     height: 4rem;
-    border: 2px solid var(--success-color);
+    border: 3px solid var(--main-color);
+    animation: strobe 3s linear infinite;
+}
+
+.rating-box.hidden {
+    visibility: hidden;
+}
+
+@keyframes strobe {
+    50% {
+        opacity: 0.35;
+    }
 }
 
 .rating-hatch {
     width: 15%;
     background: repeating-linear-gradient(
         45deg,
-        var(--muted-success-color),
-        var(--muted-success-color) 3px,
+        var(--muted-color),
+        var(--muted-color) 3px,
         var(--card-bg-color) 3px,
         var(--card-bg-color) 9px
     );
 }
 
-.rating-hatch.left {
-    border-right: 2px solid var(--success-color);
+/* .rating-hatch.left {
+    border-right: 3px solid var(--main-color);
 }
 
 .rating-hatch.right {
-    border-left: 2px solid var(--success-color);
-}
+    border-left: 3px solid var(--main-color);
+} */
 
 .rating {
     padding: 0.75rem;
     font-size: 2rem;
-    font-weight: 500;
-    color: var(--success-color);
+    font-weight: 700;
+    color: var(--main-color);
 }
