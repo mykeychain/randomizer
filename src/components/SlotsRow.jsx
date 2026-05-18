@@ -19,21 +19,21 @@ function SlotsRow() {
             let passedCommonSense = false;
             while (!passedCommonSense) {
                 result = getRandomWinners();
-                passedCommonSense = commonSenseCheck(result.winnerIds);
+                passedCommonSense = commonSenseCheck(result.winnerKeys);
             }
             dispatch({ type: "UPDATE", payload: result.payload });
         }
     }, [ isSpinning ])
-    
-    function commonSenseCheck(ids) {
+
+    function commonSenseCheck(keys) {
         if (!generalSettings.common_sense.active) {
             return true;
         };
         let backpack = 0;
         let support = 0;
         let heavy = 0;
-        for (let id of ids) {
-            let currStratagem = stratagems[id];
+        for (let key of keys) {
+            let currStratagem = stratagems[key];
             backpack += (currStratagem["backpack"] ? 1 : 0);
             support += (currStratagem["support_weapon"] ? 1 : 0);
             heavy += (currStratagem["heavy_ordinance"] ? 1 : 0);
@@ -44,21 +44,20 @@ function SlotsRow() {
     }
 
     function getRandomWinners() {
-        const filteredStratagemIds = Object.keys(stratagems).filter(id => stratagems[Number(id)]["active"] === true);
-        const winnerIds = [];
+        const filteredKeys = Object.keys(stratagems).filter(key => stratagems[key]["active"] === true);
+        const winnerKeys = [];
         const payload = {};
         for (let i = 1; i <= 4; i++ ) {
-            let randomIndex = Math.floor(Math.random() * (filteredStratagemIds.length));
-            let id = filteredStratagemIds[randomIndex];
-            while (winnerIds.includes(id)) {
-                randomIndex = Math.floor(Math.random() * (filteredStratagemIds.length));
-                id = filteredStratagemIds[randomIndex];
+            let randomIndex = Math.floor(Math.random() * (filteredKeys.length));
+            let key = filteredKeys[randomIndex];
+            while (winnerKeys.includes(key)) {
+                randomIndex = Math.floor(Math.random() * (filteredKeys.length));
+                key = filteredKeys[randomIndex];
             };
-            winnerIds.push(id);
-            let winnerName = stratagems[id]["name"];
-            payload[i] = winnerName;
+            winnerKeys.push(key);
+            payload[i] = key;
         };
-        return { payload, winnerIds };
+        return { payload, winnerKeys };
     };
 
     return (

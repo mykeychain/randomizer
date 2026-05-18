@@ -5,14 +5,27 @@ import STRATAGEMS  from "./Stratagems";
 const StratagemsProvider = ({ children }) => {
     const [stratagems, setStratagems] = useState({...STRATAGEMS});
 
-    const updateStratagems = (id) => {
+    const updateStratagems = (key) => {
         setStratagems(prevStratagems => ({
             ...prevStratagems,
-            [id]: {
-                ...prevStratagems[id],
-                active: !prevStratagems[id]["active"],
+            [key]: {
+                ...prevStratagems[key],
+                active: !prevStratagems[key]["active"],
             },
         }));
+    };
+
+    const toggleWarbond = (warbondId) => {
+        setStratagems(prevStratagems => {
+            const updated = { ...prevStratagems };
+            const warbondKeys = Object.keys(updated).filter(key => updated[key].warbond === warbondId);
+            const anyActive = warbondKeys.some(key => updated[key].active);
+            const newState = !anyActive;
+            for (const key of warbondKeys) {
+                updated[key] = { ...updated[key], active: newState };
+            }
+            return updated;
+        });
     };
 
     const resetStratagems = () => {
@@ -20,7 +33,7 @@ const StratagemsProvider = ({ children }) => {
     };
 
     return (
-        <StratagemsContext.Provider value={{ stratagems, updateStratagems, resetStratagems }}>
+        <StratagemsContext.Provider value={{ stratagems, updateStratagems, toggleWarbond, resetStratagems }}>
             {children}
         </StratagemsContext.Provider>
     );

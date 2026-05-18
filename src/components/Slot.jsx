@@ -29,13 +29,12 @@ function Slot(props) {
 
     useEffect(() => {
         const shuffledStratagems = [];
-        const shuffledIds = shuffleIds(Object.keys(stratagems).filter(id => stratagems[id]["active"] === true));
-        for (let i in shuffledIds) {
-            let id = shuffledIds[i];
-            let stratagem = stratagems[id];
+        const shuffledKeys = shuffleIds(Object.keys(stratagems).filter(key => stratagems[key]["active"] === true));
+        for (let key of shuffledKeys) {
+            let stratagem = stratagems[key];
             if (stratagem) {
                 shuffledStratagems.push(
-                    <SlotOption key={`${stratagem.name}-option`} stratagem={stratagem} slotId={props.id} />
+                    <SlotOption key={`${key}-option`} stratagem={stratagem} stratagemKey={key} slotId={props.id} />
                 );
             };
         };
@@ -56,10 +55,10 @@ function Slot(props) {
     }, [isSpinning, props.time, appMode]);
 
     useEffect(() => {
-        const winnerName = state[props.id];
-        if (winnerName) {
+        const winnerKey = state[props.id];
+        if (winnerKey) {
             let style = {};
-            let idx = shuffledStratagems.findIndex((s) => s["props"]["stratagem"]["name"] === winnerName)
+            let idx = shuffledStratagems.findIndex((s) => s["props"]["stratagemKey"] === winnerKey)
             let top = (-idx * optionSize);
             style["transform"] = `translateY(${top}%)`;
             setComponentStyle(style);

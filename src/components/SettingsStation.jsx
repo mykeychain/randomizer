@@ -8,17 +8,16 @@ function Station(props) {
 
     function renderStratagems(stationId) {
         const rows = [];
-        const filteredIds = Object.keys(stratagems).filter(id => stratagems[id]["station"] === Number(stationId));
-        for (let i in filteredIds) {
-            let id = filteredIds[i];
-            let stratagem = stratagems[id];
+        const filteredKeys = Object.keys(stratagems).filter(key => stratagems[key]["station"] === stationId);
+        for (let key of filteredKeys) {
+            let stratagem = stratagems[key];
             if (stratagem) {
                 rows.push(
                     <SettingsStratagem
-                        key={stratagem.name}
+                        key={key}
                         stratagem={stratagem}
-                        stratagemId={id}
-                        toggleStratagem={(() => updateStratagems(id))}
+                        stratagemKey={key}
+                        toggleStratagem={(() => updateStratagems(key))}
                     />
                 );
             };

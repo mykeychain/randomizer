@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import ToolTipContext from "../utils/ToolTipContext";
+import { getIconUrl } from "../utils/icons";
 import "../styles/SettingsStratagem.css";
 
 function SettingsStratagem(props) {
@@ -9,7 +10,7 @@ function SettingsStratagem(props) {
     function handleMouseEnter() {
         showToolTip(stratagem.short_name);
       };
-    
+
     function handleMouseMove(e) {
         setPosition({ x: e.clientX, y: e.clientY });
     };
@@ -17,13 +18,13 @@ function SettingsStratagem(props) {
     return (
         <div
             className={`settings-stratagem-card ${stratagem.active ? "active" : "inactive"}`}
-            key={stratagem.name}
+            key={props.stratagemKey}
             onClick={props.toggleStratagem}
             onMouseEnter={() => handleMouseEnter()}
             onMouseMove={handleMouseMove}
             onMouseLeave={hideToolTip}>
             <img className="settings-stratagem-icon"
-                src={new URL(`../stratagem_icons/${stratagem.name}.svg`, import.meta.url).href}
+                src={getIconUrl(stratagem.icon)}
                 alt={stratagem.short_name}
             />
         </div>

@@ -1,0 +1,67 @@
+.warbond-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 0 0 2rem;
+}
+
+.warbond-title {
+    padding: 0 !important;
+}
+
+.warbond-toggle {
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.warbond-chevron {
+    display: inline-block;
+    font-size: 0.8em;
+    transition: transform 0.2s ease;
+}
+
+.warbond-chevron.expanded {
+    transform: rotate(90deg);
+}
+
+.warbond-toggle-btn {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: 1px solid var(--success-color);
+    background: transparent;
+    color: var(--success-color);
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.warbond-toggle-btn:hover {
+    background: var(--success-color);
+    border-color: var(--success-color);
+    color: var(--main-bg-color);
+}
+
+.warbond-toggle-btn.active {
+    border-color: var(--danger-color);
+    color: var(--danger-color);
+}
+
+.warbond-toggle-btn.active:hover {
+    background-color: var(--danger-color);
+    color: var(--main-bg-color);
+}
+
+.warbonds-divider {
+    color: rgb(255, 255, 237);
+    text-align: start;
+    padding: 1rem 0 0 2rem;
+    margin-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 237, 0.2);
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+    opacity: 0.7;
+}

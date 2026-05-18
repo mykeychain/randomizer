@@ -1,26 +1,20 @@
 const STATIONS = {
-    1: {
-        name: "patriotic_administration_center",
+    patriotic_administration_center: {
         display_name: "Patriotic Administration Center",
     },
-    2: {
-        name: "orbital_cannons",
+    orbital_cannons: {
         display_name: "Orbital Cannons",
     },
-    3: {
-        name: "hangar",
+    hangar: {
         display_name: "Hangar",
     },
-    4: {
-        name: "bridge",
+    bridge: {
         display_name: "Bridge",
     },
-    5: {
-        name: "engineering_bay",
+    engineering_bay: {
         display_name: "Engineering Bay",
     },
-    6: {
-        name: "robotics_workshop",
+    robotics_workshop: {
         display_name: "Robotics Workshop",
     },
 };

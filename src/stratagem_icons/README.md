@@ -6,6 +6,12 @@ These SVG icons are tailored for the [Stratagem Hero Trainer](https://stratagem-
 
 Feel free to use them in your own projects !
 
+## Download all icons
+[Helldivers-2-Stratagems-icons-svg.zip](https://github.com/nvigneux/Helldivers-2-Stratagems-icons-svg/archive/refs/heads/master.zip) 
+
+## Figma resources available
+> [View the Figma file and contribution workflow ↓](#figma-file-available-for-contributors)
+
 # Icons Catalog
 
 ## Patriotic Administration Center
@@ -51,12 +57,24 @@ Feel free to use them in your own projects !
             <td>Heavy Machine Gun</td>
         </tr>
         <tr>
+            <td><a href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Patriotic%20Administration%20Center/Airburst%20Rocket%20Launcher.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Patriotic%20Administration%20Center/Airburst%20Rocket%20Launcher.svg" alt="Airburst Rocket Launcher" style="max-width: 100%;"></a></td>
+            <td>Airburst Rocket Launcher</td>
+        </tr>
+        <tr>
+            <td><a href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Patriotic%20Administration%20Center/Commando.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Patriotic%20Administration%20Center/Commando.svg" alt="Commando" style="max-width: 100%;"></a></td>
+            <td>Commando</td>
+        </tr>
+        <tr>
             <td><a href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Patriotic%20Administration%20Center/Railgun.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Patriotic%20Administration%20Center/Railgun.svg" alt="Railgun" style="max-width: 100%;"></a></td>
             <td>Railgun</td>
         </tr>
         <tr>
             <td><a href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Patriotic%20Administration%20Center/Spear.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Patriotic%20Administration%20Center/Spear.svg" alt="Spear" style="max-width: 100%;"></a></td>
             <td>Spear</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Patriotic%20Administration%20Center/StA-X3%20W.A.S.P.%20Launcher.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Patriotic%20Administration%20Center/StA-X3%20W.A.S.P.%20Launcher.svg" alt="StA-X3 W.A.S.P. Launcher" style="max-width: 100%;"></a></td>
+            <td>StA-X3 W.A.S.P. Launcher</td>
         </tr>
     </tbody>
 </table>
@@ -94,6 +112,10 @@ Feel free to use them in your own projects !
         <tr>
             <td><a href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Orbital%20Cannons/Orbital%20Laser.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Orbital%20Cannons/Orbital%20Laser.svg" alt="Orbital Laser" style="max-width: 100%;"></a></td>
             <td>Orbital Laser</td>
+        </tr>
+        <tr>
+            <td><a href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Orbital%20Cannons/Orbital%20Napalm%20Barrage.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Orbital%20Cannons/Orbital%20Napalm%20Barrage.svg" alt="Orbital Napalm Barrage" style="max-width: 100%;"></a></td>
+            <td>Orbital Napalm Barrage</td>
         </tr>
         <tr>
             <td><a href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Orbital%20Cannons/Orbital%20Railcannon%20Strike.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Orbital%20Cannons/Orbital%20Railcannon%20Strike.svg" alt="Orbital Railcannon Strike" style="max-width: 100%;"></a></td>
@@ -139,6 +161,10 @@ Feel free to use them in your own projects !
         <tr>
             <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Bridge/Tesla%20Tower.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Bridge/Tesla%20Tower.svg" alt="Tesla Tower" style="max-width: 100%;"></a></td>
             <td>Tesla Tower</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Bridge/Grenadier%20Battlement.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Bridge/Grenadier%20Battlement.svg" alt="Grenadier Battlement" style="max-width: 100%;"></a></td>
+            <td>Grenadier Battlement</td>
         </tr>
     </tbody>
 </table>
@@ -186,7 +212,11 @@ Feel free to use them in your own projects !
             <td>Eagle 500KG Bomb</td>
         </tr>
         <tr>
-            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Hangar/Eagle%20500KG%20Bomb.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Hangar/Eagle%20Rearm.svg" alt="Eagle Rearm" style="max-width: 100%;"></a></td>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Hangar/Fast%20Recon%20Vehicle.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Hangar/Fast%20Recon%20Vehicle.svg" alt="Fast Recon Vehicle" style="max-width: 100%;"></a></td>
+            <td>Fast Recon Vehicle</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Hangar/Eagle%20Rearm.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Hangar/Eagle%20Rearm.svg" alt="Eagle Rearm" style="max-width: 100%;"></a></td>
             <td>Eagle Rearm</td>
         </tr>
     </tbody>
@@ -242,6 +272,14 @@ Feel free to use them in your own projects !
             <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Engineering%20Bay/Shield%20Generator%20Pack.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Engineering%20Bay/Shield%20Generator%20Pack.svg" alt="Shield Generator Pack" style="max-width: 100%;"></a></td>
             <td>Shield Generator Pack</td>
         </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Engineering%20Bay/Anti-Tank%20Mines.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Engineering%20Bay/Anti-Tank%20Mines.svg" alt="Anti-Tank Mines" style="max-width: 100%;"></a></td>
+            <td>Anti-Tank Mines</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Engineering%20Bay/Gas%20Mine.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Engineering%20Bay/Gas%20Mine.svg" alt="Gas Mine" style="max-width: 100%;"></a></td>
+            <td>Gas Mine</td>
+        </tr>
     </tbody>
 </table>
 
@@ -284,14 +322,309 @@ Feel free to use them in your own projects !
             <td>EMS Mortar Sentry</td>
         </tr>
         <tr>
-            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Robotics%20Workshop/Patriot%20Exosuit.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Robotics%20Workshop/Patriot%20Exosuit.svg" alt="EMS Mortar Sentry" style="max-width: 100%;"></a></td>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Robotics%20Workshop/Patriot%20Exosuit.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Robotics%20Workshop/Patriot%20Exosuit.svg" alt="Patriot Exosuit" style="max-width: 100%;"></a></td>
             <td>Patriot Exosuit</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Robotics%20Workshop/Emancipator%20Exosuit.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Robotics%20Workshop/Emancipator%20Exosuit.svg" alt="Emancipator Exosuit" style="max-width: 100%;"></a></td>
+            <td>Emancipator Exosuit</td>
         </tr>
     </tbody>
 </table>
 
 
+## Chemical Agents
 
+<table style="min-width:300px">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Chemical%20Agents/Sterilizer.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Chemical%20Agents/Sterilizer.svg" alt="Sterilizer" style="max-width: 100%;"></a></td>
+            <td>Sterilizer</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Chemical%20Agents/Guard%20Dog%20Breath.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Chemical%20Agents/Guard%20Dog%20Breath.svg" alt="Gatling Sentry" style="max-width: 100%;"></a></td>
+            <td>Guard Dog Breath</td>
+        </tr>
+    </tbody>
+</table>
+
+
+## Urban Legends
+
+<table style="min-width:300px">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Urban%20Legends/Directional%20Shield.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Urban%20Legends/Directional%20Shield.svg" alt="Directional Shield" style="max-width: 100%;"></a></td>
+            <td>Directional Shield</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Urban%20Legends/Flame%20Sentry.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Urban%20Legends/Flame%20Sentry.svg" alt="Flame Sentry" style="max-width: 100%;"></a></td>
+            <td>Flame Sentry</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Urban%20Legends/Anti-Tank%20Emplacement.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Urban%20Legends/Anti-Tank%20Emplacement.svg" alt="Anti-Tank Emplacement" style="max-width: 100%;"></a></td>
+            <td>Anti-Tank Emplacement</td>
+        </tr>
+    </tbody>
+</table>
+
+
+## Servants of Freedom
+
+<table style="min-width:300px">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Servants%20of%20Freedom/Hellbomb%20Portable.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Servants%20of%20Freedom/Hellbomb%20Portable.svg" alt="Hellbomb Portable" style="max-width: 100%;"></a></td>
+            <td>Hellbomb Portable</td>
+        </tr>
+    </tbody>
+</table>
+
+
+## Borderline Justice
+
+<table style="min-width:300px">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Borderline%20Justice/Hover%20Pack.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Borderline%20Justice/Hover%20Pack.svg" alt="Hover Pack" style="max-width: 100%;"></a></td>
+            <td>Hover Pack</td>
+        </tr>
+    </tbody>
+</table>
+
+
+## Masters of Ceremony
+
+<table style="min-width:300px">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Masters%20of%20Ceremony/One%20True%20Flag.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Masters%20of%20Ceremony/One%20True%20Flag.svg" alt="One True Flag" style="max-width: 100%;"></a></td>
+            <td>One True Flag</td>
+        </tr>
+    </tbody>
+</table>
+
+
+## Force of Law
+
+<table style="min-width:300px">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Force%20of%20Law/GL-52%20De-Escalator.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Force%20of%20Law/GL-52%20De-Escalator.svg" alt="GL-52 De-Escalator" style="max-width: 100%;"></a></td>
+            <td>GL-52 De-Escalator</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Force%20of%20Law/Guard%20Dog%20K-9.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Force%20of%20Law/Guard%20Dog%20K-9.svg" alt="Guard Dog K-9" style="max-width: 100%;"></a></td>
+            <td>Guard Dog K-9</td>
+        </tr>
+    </tbody>
+</table>
+
+
+## Control Group
+
+<table style="min-width:300px">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Control%20Group/Laser%20Sentry.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Control%20Group/Laser%20Sentry.svg" alt="Laser Sentry" style="max-width: 100%;"></a></td>
+            <td>Laser Sentry</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Control%20Group/Warp%20Pack.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Control%20Group/Warp%20Pack.svg" alt="Warp Pack" style="max-width: 100%;"></a></td>
+            <td>Warp Pack</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Control%20Group/Epoch.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Control%20Group/Epoch.svg" alt="Epoch" style="max-width: 100%;"></a></td>
+            <td>Epoch</td>
+        </tr>
+    </tbody>
+</table>
+
+
+## Dust Devils
+
+<table style="min-width:300px">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Dust%20Devils/Solo%20Silo.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Dust%20Devils/Solo%20Silo.svg" alt="Epoch" style="max-width: 100%;"></a></td>
+            <td>Solo Silo</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Dust%20Devils/Expendable%20Napalm.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Dust%20Devils/Expendable%20Napalm.svg" alt="Warp Pack" style="max-width: 100%;"></a></td>
+            <td>Expendable Napalm</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Dust%20Devils/Speargun.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Dust%20Devils/Speargun.svg" alt="Laser Sentry" style="max-width: 100%;"></a></td>
+            <td>Speargun</td>
+        </tr>
+    </tbody>
+</table>
+
+## Python Commandos
+
+<table style="min-width:300px">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Python%20Commandos/Maxigun.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Python%20Commandos/Maxigun.svg" alt="Maxigun" style="max-width: 100%;"></a></td>
+            <td>Maxigun</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Python%20Commandos/Defoliation%20Tool.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Python%20Commandos/Defoliation%20Tool.svg" alt="Defoliation Tool" style="max-width: 100%;"></a></td>
+            <td>Defoliation Tool</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Python%20Commandos/Guard%20Dog%20Hot%20Dog.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Python%20Commandos/Guard%20Dog%20Hot%20Dog.svg" alt="Guard Dog Hot Dog" style="max-width: 100%;"></a></td>
+            <td>Guard Dog Hot Dog</td>
+        </tr>
+    </tbody>
+</table>
+
+## Redacted Regiment
+
+<table style="min-width:300px">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Redacted%20Regiment/C4%20Pack.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Redacted%20Regiment/C4%20Pack.svg" alt="C4 Pack" style="max-width: 100%;"></a></td>
+            <td>C4 Pack</td>
+        </tr>
+    </tbody>
+</table>
+
+
+## Siege Breakers
+
+<table style="min-width:300px">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Siege%20Breakers/GL-28.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Siege%20Breakers/GL-28.svg" alt="GL-28" style="max-width: 100%;"></a></td>
+            <td>GL-28</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Siege%20Breakers/EAT-411.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Siege%20Breakers/EAT-411.svg" alt="EAT-411" style="max-width: 100%;"></a></td>
+            <td>EAT-411</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Siege%20Breakers/CQC-20.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Siege%20Breakers/CQC-20.svg" alt="CQC-20" style="max-width: 100%;"></a></td>
+            <td>CQC-20</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Siege%20Breakers/Bastion%20MK%20XVI.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Siege%20Breakers/Bastion%20MK%20XVI.svg" alt="Bastion MK XVI" style="max-width: 100%;"></a></td>
+            <td>Bastion MK XVI</td>
+        </tr>
+    </tbody>
+</table>
+
+## Entrenched Division
+
+<table style="min-width:300px">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Entrenched%20Division/Gas%20Mortar%20Sentry.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Entrenched%20Division/Gas%20Mortar%20Sentry.svg" alt="A/GM-17 Gas Mortar Sentry" style="max-width: 100%;"></a></td>
+            <td>Gas Mortar Sentry</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Entrenched%20Division/Cremator.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Entrenched%20Division/Cremator.svg" alt="B/FLAM-80 Cremator" style="max-width: 100%;"></a></td>
+            <td>Cremator</td>
+        </tr>
+    </tbody>
+</table>
+
+## Exo Experts
+
+<table style="min-width:300px">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Exo%20Experts/Bullet%20Storm.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Exo%20Experts/Bullet%20Storm.svg" alt="Bullet Storm" style="max-width: 100%;"></a></td>
+            <td>Bullet Storm</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Exo%20Experts/Lumberer%20Exosuit.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Exo%20Experts/Lumberer%20Exosuit.svg" alt="Lumberer Exosuit" style="max-width: 100%;"></a></td>
+            <td>Lumberer Exosuit</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Exo%20Experts/Breakthrough%20Exosuit.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/Exo%20Experts/Breakthrough%20Exosuit.svg" alt="Breakthrough Exosuit" style="max-width: 100%;"></a></td>
+            <td>Breakthrough Exosuit</td>
+        </tr>
+    </tbody>
+</table>
 
 ## General Stratagems
 
@@ -343,5 +676,64 @@ Feel free to use them in your own projects !
             <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/General%20Stratagems/Orbital%20Illumination%20Flare.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/General%20Stratagems/Orbital%20Illumination%20Flare.svg" alt="Orbital Illumination Flare" style="max-width: 100%;"></a></td>
             <td>Orbital Illumination Flare</td>
         </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/General%20Stratagems/Tectonic%20Drill.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/General%20Stratagems/Tectonic%20Drill.svg" alt="Tectonic Drill" style="max-width: 100%;"></a></td>
+            <td>Tectonic Drill</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/General%20Stratagems/Dark%20Fluid%20Vessel.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/General%20Stratagems/Dark%20Fluid%20Vessel.svg" alt="Dark Fluid Vessel" style="max-width: 100%;"></a></td>
+            <td>Dark Fluid Vessel</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/General%20Stratagems/Hive%20Breaker%20Drill.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/General%20Stratagems/Hive%20Breaker%20Drill.svg" alt="Hive Breaker Drill" style="max-width: 100%;"></a></td>
+            <td>Hive Breaker Drill</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/General%20Stratagems/Cargo%20Container.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/General%20Stratagems/Cargo%20Container.svg" alt="Cargo Container" style="max-width: 100%;"></a></td>
+            <td>Cargo Container</td>
+        </tr>
+        <tr>
+            <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/General%20Stratagems/Call%20In%20Super%20Destroyer.svg"><img width=55 src="https://raw.githubusercontent.com/nvigneux/Helldivers-2-Stratagems-icons-svg/master/General%20Stratagems/Call%20In%20Super%20Destroyer.svg" alt="Call In Super Destroyer" style="max-width: 100%;"></a></td>
+            <td>Call In Super Destroyer</td>
+        </tr>
     </tbody>
 </table>
+
+
+## Experimental Stratagems
+The `_Experimental Stratagems` folder contains icons for stratagems that are not permanently available.
+
+<table style="min-width:300px">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+# Figma file available for contributors
+
+I’ve been working on a Figma file that gathers all the stratagem icons from this repository.
+
+[https://www.figma.com/design/fU3zyE3n7nVwdqtYFyL2Tx/Stratagem-Hero-Icons](https://www.figma.com/design/fU3zyE3n7nVwdqtYFyL2Tx/Stratagem-Hero-Icons)
+
+
+The goal is to make it easier to create new icons by reusing the existing SVGs and keeping the style consistent across the project.
+
+This should help contributors:
+- understand how the icons are built
+- reuse existing shapes and components
+- create new stratagem icons more easily
+- avoid editing SVGs manually from scratch
+
+I’ll keep improving the file over time, but it should already be useful for anyone who wants to help with future icon updates.
+
+Thanks again to everyone who contributed to the project and helped keep it up to date while I was away.
+
+
+# Support me
+### If you find these resources helpful for your projects or simply enjoy the designs, consider supporting my efforts.
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/nvigneux?path=readme)
