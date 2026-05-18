@@ -11,7 +11,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: true,
-        heavy_ordinance: false,
     },
     anti_materiel_rifle: {
         short_name: "Anti-Materiel Rifle",
@@ -22,7 +21,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: true,
-        heavy_ordinance: false,
     },
     stalwart: {
         short_name: "Stalwart",
@@ -33,7 +31,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: true,
-        heavy_ordinance: false,
     },
     expendable_anti_tank: {
         short_name: "Expendable Anti-Tank",
@@ -44,7 +41,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: true,
-        heavy_ordinance: true,
     },
     recoilless_rifle: {
         short_name: "Recoilless Rifle",
@@ -55,7 +51,6 @@ const STRATAGEMS = {
         active: true,
         backpack: true,
         support_weapon: true,
-        heavy_ordinance: true,
     },
     flamethrower: {
         short_name: "Flamethrower",
@@ -66,7 +61,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: true,
-        heavy_ordinance: false,
     },
     autocannon: {
         short_name: "Autocannon",
@@ -77,7 +71,6 @@ const STRATAGEMS = {
         active: true,
         backpack: true,
         support_weapon: true,
-        heavy_ordinance: false,
     },
     heavy_machine_gun: {
         short_name: "Heavy Machine Gun",
@@ -88,7 +81,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: true,
-        heavy_ordinance: false,
     },
     airburst_rocket_launcher: {
         short_name: "Airburst Rocket Launcher",
@@ -99,7 +91,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: true,
-        heavy_ordinance: false,
     },
     railgun: {
         short_name: "Railgun",
@@ -110,7 +101,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: true,
-        heavy_ordinance: false,
     },
     spear: {
         short_name: "SPEAR",
@@ -121,7 +111,6 @@ const STRATAGEMS = {
         active: true,
         backpack: true,
         support_weapon: true,
-        heavy_ordinance: false,
     },
     commando: {
         short_name: "Commando",
@@ -132,7 +121,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     sta_x3_wasp_launcher: {
         short_name: "StA-X3 W.A.S.P. Launcher",
@@ -143,7 +131,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
 
     // ========================================
@@ -158,7 +145,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     airburst_strike: {
         short_name: "Airburst Strike",
@@ -169,7 +155,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     orbital_120_he_barrage: {
         short_name: "120MM HE Barrage",
@@ -180,7 +165,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: true,
     },
     orbital_380_he_barrage: {
         short_name: "380MM HE Barrage",
@@ -191,7 +175,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: true,
     },
     walking_barrage: {
         short_name: "Walking Barrage",
@@ -202,7 +185,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: true,
     },
     orbital_laser: {
         short_name: "Orbital Laser",
@@ -213,7 +195,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: true,
     },
     railcannon_strike: {
         short_name: "Railcannon Strike",
@@ -224,7 +205,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: true,
     },
     orbital_napalm_barrage: {
         short_name: "Orbital Napalm Barrage",
@@ -235,7 +215,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
 
     // ========================================
@@ -250,7 +229,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     airstrike: {
         short_name: "Eagle Airstrike",
@@ -261,7 +239,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: true,
     },
     cluster_bomb: {
         short_name: "Eagle Cluster Bomb",
@@ -272,7 +249,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     napalm_airstrike: {
         short_name: "Eagle Napalm Airstrike",
@@ -283,7 +259,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     jump_pack: {
         short_name: "Jump Pack",
@@ -294,7 +269,6 @@ const STRATAGEMS = {
         active: true,
         backpack: true,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     smoke_strike: {
         short_name: "Eagle Smoke Strike",
@@ -305,7 +279,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     rocket_pods: {
         short_name: "Eagle Rocket Pods",
@@ -316,7 +289,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: true,
     },
     eagle_500kg_bomb: {
         short_name: "Eagle 500KG Bomb",
@@ -327,7 +299,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: true,
     },
     fast_recon_vehicle: {
         short_name: "Fast Recon Vehicle",
@@ -338,7 +309,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
 
     // ========================================
@@ -353,7 +323,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: true,
     },
     gas_strike: {
         short_name: "Orbital Gas Strike",
@@ -364,7 +333,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     ems_strike: {
         short_name: "Orbital EMS Strike",
@@ -375,7 +343,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     orbital_smoke_strike: {
         short_name: "Orbital Smoke Strike",
@@ -386,7 +353,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     hmg_emplacement: {
         short_name: "HMG Emplacement",
@@ -397,7 +363,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     shield_generator_relay: {
         short_name: "Shield Generator Relay",
@@ -408,7 +373,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     tesla_tower: {
         short_name: "Tesla Tower",
@@ -419,7 +383,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     grenadier_battlement: {
         short_name: "Grenadier Battlement",
@@ -430,7 +393,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
 
     // ========================================
@@ -445,7 +407,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     supply_pack: {
         short_name: "Supply Pack",
@@ -456,7 +417,6 @@ const STRATAGEMS = {
         active: true,
         backpack: true,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     grenade_launcher: {
         short_name: "Grenade Launcher",
@@ -467,7 +427,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: true,
-        heavy_ordinance: false,
     },
     laser_cannon: {
         short_name: "Laser Cannon",
@@ -478,7 +437,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: true,
-        heavy_ordinance: false,
     },
     incendiary_mines: {
         short_name: "Incendiary Mines",
@@ -489,7 +447,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     guard_dog_rover: {
         short_name: "'Guard Dog' Rover",
@@ -500,7 +457,6 @@ const STRATAGEMS = {
         active: true,
         backpack: true,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     ballistic_shield: {
         short_name: "Ballistic Shield Backpack",
@@ -511,7 +467,6 @@ const STRATAGEMS = {
         active: true,
         backpack: true,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     arc_thrower: {
         short_name: "Arc Thrower",
@@ -522,7 +477,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: true,
-        heavy_ordinance: false,
     },
     quasar_cannon: {
         short_name: "Quasar Cannon",
@@ -533,7 +487,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: true,
-        heavy_ordinance: true,
     },
     shield_generator_pack: {
         short_name: "Shield Generator Pack",
@@ -544,7 +497,6 @@ const STRATAGEMS = {
         active: true,
         backpack: true,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     anti_tank_mines: {
         short_name: "Anti-Tank Mines",
@@ -555,7 +507,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     gas_mine: {
         short_name: "Gas Mine",
@@ -566,7 +517,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
 
     // ========================================
@@ -581,7 +531,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     gatling_sentry: {
         short_name: "Gatling Sentry",
@@ -592,7 +541,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     mortar_sentry: {
         short_name: "Mortar Sentry",
@@ -603,7 +551,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     guard_dog: {
         short_name: "'Guard Dog'",
@@ -614,7 +561,6 @@ const STRATAGEMS = {
         active: true,
         backpack: true,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     autocannon_sentry: {
         short_name: "Autocannon Sentry",
@@ -625,7 +571,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     rocket_sentry: {
         short_name: "Rocket Sentry",
@@ -636,7 +581,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: true,
     },
     ems_mortar_sentry: {
         short_name: "EMS Mortar Sentry",
@@ -647,7 +591,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     patriot_exosuit: {
         short_name: "Patriot Exosuit",
@@ -658,7 +601,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: true,
     },
     emancipator_exosuit: {
         short_name: "Emancipator Exosuit",
@@ -669,7 +611,6 @@ const STRATAGEMS = {
         active: true,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
 
     // ========================================
@@ -684,9 +625,8 @@ const STRATAGEMS = {
         icon: "Borderline Justice/Hover Pack.svg",
         warbond: "borderline_justice",
         active: false,
-        backpack: false,
+        backpack: true,
         support_weapon: false,
-        heavy_ordinance: false,
     },
 
     // --- Chemical Agents ---
@@ -697,9 +637,8 @@ const STRATAGEMS = {
         icon: "Chemical Agents/Guard Dog Breath.svg",
         warbond: "chemical_agents",
         active: false,
-        backpack: false,
+        backpack: true,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     sterilizer: {
         short_name: "Sterilizer",
@@ -709,8 +648,7 @@ const STRATAGEMS = {
         warbond: "chemical_agents",
         active: false,
         backpack: false,
-        support_weapon: false,
-        heavy_ordinance: false,
+        support_weapon: true,
     },
 
     // --- Control Group ---
@@ -722,8 +660,7 @@ const STRATAGEMS = {
         warbond: "control_group",
         active: false,
         backpack: false,
-        support_weapon: false,
-        heavy_ordinance: false,
+        support_weapon: true,
     },
     laser_sentry: {
         short_name: "Laser Sentry",
@@ -734,7 +671,6 @@ const STRATAGEMS = {
         active: false,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     warp_pack: {
         short_name: "Warp Pack",
@@ -743,9 +679,8 @@ const STRATAGEMS = {
         icon: "Control Group/Warp Pack.svg",
         warbond: "control_group",
         active: false,
-        backpack: false,
+        backpack: true,
         support_weapon: false,
-        heavy_ordinance: false,
     },
 
     // --- Dust Devils ---
@@ -758,7 +693,6 @@ const STRATAGEMS = {
         active: false,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     solo_silo: {
         short_name: "Solo Silo",
@@ -768,8 +702,7 @@ const STRATAGEMS = {
         warbond: "dust_devils",
         active: false,
         backpack: false,
-        support_weapon: false,
-        heavy_ordinance: false,
+        support_weapon: true,
     },
     speargun: {
         short_name: "Speargun",
@@ -779,8 +712,7 @@ const STRATAGEMS = {
         warbond: "dust_devils",
         active: false,
         backpack: false,
-        support_weapon: false,
-        heavy_ordinance: false,
+        support_weapon: true,
     },
 
     // --- Entrenched Division ---
@@ -791,9 +723,8 @@ const STRATAGEMS = {
         icon: "Entrenched Division/Cremator.svg",
         warbond: "entrenched_division",
         active: false,
-        backpack: false,
-        support_weapon: false,
-        heavy_ordinance: false,
+        backpack: true,
+        support_weapon: true,
     },
     gas_mortar_sentry: {
         short_name: "Gas Mortar Sentry",
@@ -804,7 +735,6 @@ const STRATAGEMS = {
         active: false,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
 
     // --- Exo Experts ---
@@ -817,7 +747,6 @@ const STRATAGEMS = {
         active: false,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     bullet_storm: {
         short_name: "Bullet Storm",
@@ -827,8 +756,7 @@ const STRATAGEMS = {
         warbond: "exo_experts",
         active: false,
         backpack: false,
-        support_weapon: false,
-        heavy_ordinance: false,
+        support_weapon: true,
     },
     lumberer_exosuit: {
         short_name: "Lumberer Exosuit",
@@ -839,7 +767,6 @@ const STRATAGEMS = {
         active: false,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
 
     // --- Force of Law ---
@@ -851,8 +778,7 @@ const STRATAGEMS = {
         warbond: "force_of_law",
         active: false,
         backpack: false,
-        support_weapon: false,
-        heavy_ordinance: false,
+        support_weapon: true,
     },
     guard_dog_k9: {
         short_name: "Guard Dog K-9",
@@ -861,9 +787,8 @@ const STRATAGEMS = {
         icon: "Force of Law/Guard Dog K-9.svg",
         warbond: "force_of_law",
         active: false,
-        backpack: false,
+        backpack: true,
         support_weapon: false,
-        heavy_ordinance: false,
     },
 
     // --- Masters of Ceremony ---
@@ -875,8 +800,7 @@ const STRATAGEMS = {
         warbond: "masters_of_ceremony",
         active: false,
         backpack: false,
-        support_weapon: false,
-        heavy_ordinance: false,
+        support_weapon: true,
     },
 
     // --- Python Commandos ---
@@ -888,8 +812,7 @@ const STRATAGEMS = {
         warbond: "python_commandos",
         active: false,
         backpack: false,
-        support_weapon: false,
-        heavy_ordinance: false,
+        support_weapon: true,
     },
     guard_dog_hot_dog: {
         short_name: "Guard Dog Hot Dog",
@@ -898,9 +821,8 @@ const STRATAGEMS = {
         icon: "Python Commandos/Guard Dog Hot Dog.svg",
         warbond: "python_commandos",
         active: false,
-        backpack: false,
+        backpack: true,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     maxigun: {
         short_name: "Maxigun",
@@ -909,9 +831,8 @@ const STRATAGEMS = {
         icon: "Python Commandos/Maxigun.svg",
         warbond: "python_commandos",
         active: false,
-        backpack: false,
-        support_weapon: false,
-        heavy_ordinance: false,
+        backpack: true,
+        support_weapon: true,
     },
 
     // --- Redacted Regiment ---
@@ -922,9 +843,8 @@ const STRATAGEMS = {
         icon: "Redacted Regiment/C4 Pack.svg",
         warbond: "redacted_regiment",
         active: false,
-        backpack: false,
+        backpack: true,
         support_weapon: false,
-        heavy_ordinance: false,
     },
 
     // --- Servants of Freedom ---
@@ -935,9 +855,8 @@ const STRATAGEMS = {
         icon: "Servants of Freedom/Hellbomb Portable.svg",
         warbond: "servants_of_freedom",
         active: false,
-        backpack: false,
+        backpack: true,
         support_weapon: false,
-        heavy_ordinance: false,
     },
 
     // --- Siege Breakers ---
@@ -950,40 +869,36 @@ const STRATAGEMS = {
         active: false,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     cqc_20: {
-        short_name: "CQC-20",
-        long_name: "CQC-20",
+        short_name: "Breaching Hammer",
+        long_name: "CQC-20 Breaching Hammer",
         station: null,
         icon: "Siege Breakers/CQC-20.svg",
         warbond: "siege_breakers",
         active: false,
         backpack: false,
-        support_weapon: false,
-        heavy_ordinance: false,
+        support_weapon: true,
     },
     eat_411: {
-        short_name: "EAT-411",
-        long_name: "EAT-411",
+        short_name: "Leveller",
+        long_name: "EAT-411 Leveller",
         station: null,
         icon: "Siege Breakers/EAT-411.svg",
         warbond: "siege_breakers",
         active: false,
         backpack: false,
-        support_weapon: false,
-        heavy_ordinance: false,
+        support_weapon: true,
     },
     gl_28: {
-        short_name: "GL-28",
-        long_name: "GL-28",
+        short_name: "Belt-fed Grenade Launcher",
+        long_name: "GL-28 Belt-fed Grenade Launcher",
         station: null,
         icon: "Siege Breakers/GL-28.svg",
         warbond: "siege_breakers",
         active: false,
-        backpack: false,
-        support_weapon: false,
-        heavy_ordinance: false,
+        backpack: true,
+        support_weapon: true,
     },
 
     // --- Urban Legends ---
@@ -996,7 +911,6 @@ const STRATAGEMS = {
         active: false,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     directional_shield: {
         short_name: "Directional Shield",
@@ -1007,7 +921,6 @@ const STRATAGEMS = {
         active: false,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
     flame_sentry: {
         short_name: "Flame Sentry",
@@ -1018,7 +931,6 @@ const STRATAGEMS = {
         active: false,
         backpack: false,
         support_weapon: false,
-        heavy_ordinance: false,
     },
 };
 

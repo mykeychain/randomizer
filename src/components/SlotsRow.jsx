@@ -31,16 +31,14 @@ function SlotsRow() {
         };
         let backpack = 0;
         let support = 0;
-        let heavy = 0;
         for (let key of keys) {
             let currStratagem = stratagems[key];
             backpack += (currStratagem["backpack"] ? 1 : 0);
             support += (currStratagem["support_weapon"] ? 1 : 0);
-            heavy += (currStratagem["heavy_ordinance"] ? 1 : 0);
         };
-        console.log(`backpack score ${backpack} support score ${support} heavy score ${heavy}`);
+        console.log(`backpack score ${backpack} support score ${support}`);
 
-        return (backpack <= 1 && support === 1 && heavy >= 1);
+        return (backpack <= 1 && support === 1);
     }
 
     function getRandomWinners() {
