@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import ToolTipContext from "../utils/ToolTipContext";
-import { ReactComponent as Check } from "../stratagem_icons/check.svg";
-import { ReactComponent as X } from "../stratagem_icons/x.svg";
+import Check from "../stratagem_icons/check.svg?react";
+import X from "../stratagem_icons/x.svg?react";
 import "../styles/GeneralSettings.css";
 
 

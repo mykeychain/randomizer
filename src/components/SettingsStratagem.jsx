@@ -23,7 +23,7 @@ function SettingsStratagem(props) {
             onMouseMove={handleMouseMove}
             onMouseLeave={hideToolTip}>
             <img className="settings-stratagem-icon"
-                src={require(`../stratagem_icons/${stratagem.name}.svg`)}
+                src={new URL(`../stratagem_icons/${stratagem.name}.svg`, import.meta.url).href}
                 alt={stratagem.short_name}
             />
         </div>

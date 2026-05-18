@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as Skull } from "../stratagem_icons/hd-full.svg";
+import Skull from "../stratagem_icons/hd-full.svg?react";
 import "../styles/GameTitle.css";
 
 

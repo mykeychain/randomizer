@@ -38,7 +38,7 @@ function SlotOption(props) {
             onMouseMove={handleMouseMove}
             onMouseLeave={hideToolTip}>
             <img className="game-stratagem-icon"
-                src={require(`../stratagem_icons/${stratagem.name}.svg`)}
+                src={new URL(`../stratagem_icons/${stratagem.name}.svg`, import.meta.url).href}
                 alt={stratagem.short_name}
             />
         </div>
